@@ -1,4 +1,8 @@
-h1.banner{
+body{
+    background-color:lightblue;
+}
+
+h1{
     color:red;
 }
 
