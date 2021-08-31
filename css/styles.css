@@ -1,12 +1,40 @@
 body{
-    background-color:lightblue;
+    background-color:rgba(224, 224, 224, 0.747);
 }
 
 h1{
-    color:red;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .banner{
-    background-image:
-    url(images/image.jfif);
+    background-color:rgb(12, 12, 182);
+    background-size: cover;
+    height: auto;
+    padding-top: 2%;
+    margin-top: 0;
     }
+
+.center{
+    text-align: center;
+    margin:auto;
+    width:50%;
+}
+
+#portrait{
+    display: block;
+    height: 300px;
+    width: 235px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#logo{
+    background-color: white;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 1%;
+    padding-top: 1%
+}
