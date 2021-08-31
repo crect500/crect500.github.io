@@ -7,18 +7,27 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+button{
+    background-color: gray;
+}
+
 .banner{
     background-color:rgb(12, 12, 182);
     background-size: cover;
     height: auto;
-    padding-top: 2%;
+    padding-top: 1%;
     margin-top: 0;
+    padding-bottom: 1%;
     }
 
 .center{
     text-align: center;
     margin:auto;
     width:50%;
+}
+
+.menu{
+    margin-left: 10%;
 }
 
 #portrait{
@@ -37,4 +46,8 @@ h1{
     padding-right: 25%;
     padding-bottom: 1%;
     padding-top: 1%
+}
+
+#resume{
+    margin-right: 5%;
 }
