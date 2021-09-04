@@ -49,8 +49,8 @@ h3{
     margin-left: 11%
 }
 
-a{
-    color:white;
+.nav-link{
+    color: white;
     text-decoration: none;
 }
 
