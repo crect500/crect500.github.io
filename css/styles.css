@@ -8,6 +8,7 @@ h1{
 }
 
 p{
+    font-size: medium;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -15,26 +16,21 @@ p{
 ol{
     margin-left: 10%;
     margin-right: 10%;
+    font-size: medium;
 }
 
 h3{
+    font-size: large;
     margin-left: 10%;
 }
+
 .banner{
     background-color:rgb(12, 12, 182);
     background-size: cover;
     height: auto;
     margin-top: 0;
+    padding-top: 0.5%;
     }
-
-.banner_button{
-    background-color: rgb(12, 12, 182);
-    border-color: rgb(12, 12, 182);
-    color: white;
-    width: 10%;
-    height: 3%;
-    margin-right: 5%;
-}
 
 .center{
     text-align: center;
@@ -44,6 +40,21 @@ h3{
 
 .menu{
     margin-left: 10%;
+    list-style-type: none;
+}
+
+.menu-item{
+    display: inline-block;
+    margin-left: 11%
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.idle{
+    color:white;
 }
 
 #portrait{
@@ -64,6 +75,6 @@ h3{
     padding-top: 1%
 }
 
-#home{
-    margin-left: 9%;
+.bibliography{
+    font-size: medium;
 }
